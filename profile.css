@@ -10,29 +10,30 @@ img{
 	border-radius: 150px;
 	border-color: grey;
 	border-style: solid;
+	border-width: 10px;
 }
 h1{
 	position: absolute;
 	margin-top: -30px;
+	font-family: Calibri;
 }
 p{
 	position: absolute;
 	font-size: 15px;
-
 }
 #container{
 	background: #0c0101e0;
-	font-family: 'Bookman Old Style';
 	font-style: italic;
 	width: 100%;
 	height: 700px;
 	border-radius: 10px;
 	border-style: round;
-
+	font-family: Calibri;
+	font-size: 30px;
 }
 #header{
 	background: #8080809c;
-	font: 'Bookman Old Style';
+	font: Calibri;
 	padding: 50px;	
 	color: white;
 	border-style: round;
@@ -41,76 +42,49 @@ p{
 }
 #footer{
 	background: #8080809c;
-	font: 'Bookman Old Style';
+	font-family: Calibri;
 	padding: 50px;	
 	color: white;
 	border-style: round;
+	border-radius: 10px;
+	font-size: 30px;
 }
 #bar{
 	padding: 120px;
 	border-radius: 6px;
 	border-style: round;
-	font-size: 30px;
 }
-#link1{
+ul{
 	color: black;
-	padding: 10px;
+	list-style-type: none;
 	background-color: white;
 	border-style: round;
 	border-radius: 5px;
-	left: 50%;
+	left: 45%;
 	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
-	
+	font-size: 25px;
+	margin-top: 5px;
 }
-#link2{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 57%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
+li{
+	padding: 50px 17px;
+	display: inline;
+	font-family: Calibri;
+
 }
-a{}
-#link3{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 66%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
+li a{
+	text-decoration: none;
+	color: #505bab;
 }
-#link4{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 76%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
+li a:hover{
+	color: white;
+	background-color: #5b618c;
 }
-#link5{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 84%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
+#socialmedia{
+	padding:20px;
+	margin-top: -40px;
 }
 #aboutme{
-	left: 50%;
+	left: 45%;
 	width: 500px;
 	position: absolute;
 	padding: 75px;
@@ -118,39 +92,4 @@ a{}
 	color: white;
 	border-style: round;
 	border-radius: 8px;
-	font-size: : 50px;
-	font: 'Bookman Old Style';
-}
-#twitter{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 60%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
-}
-#medium{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 80%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
-}
-#facebook{
-	color: black;
-	padding: 10px;
-	background-color: white;
-	border-style: round;
-	border-radius: 5px;
-	left: 40%;
-	position: absolute;
-	font: 'Bookman Old Style';
-	font-size: 20px;
 }
